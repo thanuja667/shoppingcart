@@ -1,8 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 20px;
+    text-align: justify;
+    background-color: bisque;
 }
-
+.product{
+    display:grid;
+    grid-template-rows: auto;
+    grid-area: auto;
+}
+.product{
+    display:flex;
+    height: 30%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(220, 144, 200);
+}
 .products, .cart {
     float: left;
     width: 45%;
@@ -10,13 +23,13 @@ body {
 }
 
 .product, .cart-item {
-    border: 1px solid #ccc;
+    border: 5px solid #ccc;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 button {
-    background-color: #e56a39;
+    background-color: #008CBA;
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -24,5 +37,5 @@ button {
 }
 
 button:hover {
-    background-color: #7ad926;
+    background-color: #005f6b;
 }
