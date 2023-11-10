@@ -14,7 +14,7 @@ body {
     height: 30%;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(220, 144, 200);
+    background-color: rgb(91, 127, 137);
 }
 .products, .cart {
     float: left;
